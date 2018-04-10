@@ -18,7 +18,7 @@ Gonzalez
 isc_estanislao.j@tesvb.edu.mx
 ////////////////////////////////////////////////////////////////
 
-=======
+
 Cris 
 Arias 
 Zepeda
