@@ -74,4 +74,17 @@ isc_ramirez.j@tesvb.edu.mx
 
 ////////////////////////////////////////////////////////////////
 
->>>>>>> 9e144f9bf2f1acbcca1d7e3a90a3d07f6a6a475b
+Mitzi 
+Magdalena
+Salgado
+Gomez
+23
+isc_salgado.m@tesvb.edu.mx
+
+
+////////////////////////////////////////////////////////////////
+Yareli
+Morales
+Basilio
+20
+isc_morales.y@tesvb.edu.mx
