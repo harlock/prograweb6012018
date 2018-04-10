@@ -25,3 +25,9 @@ Zepeda
 20
 isc_arias.c@tesvb.edu.mx
 
+///////////////////////////////////////////////////
+Yareli
+Morales
+Basilio
+21
+isc_morales.y@tesvb.edu.mx
