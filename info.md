@@ -99,3 +99,10 @@ Carbajal
 Venteño
 20
 isc_carbajal.d@tesvb.edu.mx
+
+////////////////////////////////////////////////////////////////
+Luis
+Hernandez
+Salazar
+23
+isc_hernandez-l@tesvb.edu.mx
