@@ -92,3 +92,10 @@ Morales
 Basilio
 20
 isc_morales.y@tesvb.edu.mx
+
+////////////////////////////////////////////////////////////////
+Diego
+Carbajal
+Venteño
+20
+isc_carbajal.d@tesvb.edu.mx
