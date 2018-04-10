@@ -85,3 +85,10 @@ Santana
 Espinosa
 21
 isc_santana.m@tesvb.edu.mx
+
+////////////////////////////////////////////////////////////////
+Yareli
+Morales
+Basilio
+20
+isc_morales.y@tesvb.edu.mx
