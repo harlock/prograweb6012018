@@ -24,4 +24,10 @@ Arias
 Zepeda
 20
 isc_arias.c@tesvb.edu.mx
+/////////////////////////////////////////////////////////////////
 
+Jesus
+Emerith 
+Ramirez
+Ocampo
+isc_ramirez.j@tesvb.edu.mx
