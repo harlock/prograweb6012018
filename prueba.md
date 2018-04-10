@@ -11,4 +11,13 @@ Hola soy  Alexander
 Hola desde con clone
 Cris esta enfadado
 
+<<<<<<< HEAD
 lml mitzi
+=======
+
+
+
+
+
+hola - vale
+>>>>>>> 26c35dfccb57a2191a347701a04439fd1e726ea2
