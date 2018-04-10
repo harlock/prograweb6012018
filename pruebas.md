@@ -1,2 +1,1 @@
-
-F~R~Y
+este es un mensaje
