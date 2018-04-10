@@ -18,3 +18,10 @@ Gonzalez
 isc_estanislao.j@tesvb.edu.mx
 ////////////////////////////////////////////////////////////////
 
+=======
+Cris 
+Arias 
+Zepeda
+20
+isc_arias.c@tesvb.edu.mx
+
