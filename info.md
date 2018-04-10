@@ -1,4 +1,4 @@
-saul
+﻿saul
 miguel
 salgado
 20
@@ -26,6 +26,13 @@ isc_estanislao.j@tesvb.edu.mx
 Cris 
 Arias 
 Zepeda
+///////////////////////////////////////////////////////////////
+Rodrigo
+Juan
+Atonio
+21
+isc_juan.r@tesvb.edu.mx
+
 20
 isc_arias.c@tesvb.edu.mx
 
