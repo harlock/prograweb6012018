@@ -85,7 +85,12 @@ Santana
 Espinosa
 21
 isc_santana.m@tesvb.edu.mx
-
+///////////////////////////////////////////////////////////////
+Bernardino Octavio
+Villegas
+Ggarcia
+22
+isc_villegas.b@tesvb.edu.mx
 ////////////////////////////////////////////////////////////////
 Yareli
 Morales
@@ -99,3 +104,10 @@ Carbajal
 Venteño
 20
 isc_carbajal.d@tesvb.edu.mx
+
+////////////////////////////////////////////////////////////////
+Luis
+Hernandez
+Salazar
+23
+isc_hernandez-l@tesvb.edu.mx

@@ -1,0 +1,28 @@
+body{
+    background: white;
+}
+ main div{
+     border: 1px;
+     margin-left: 15% ;
+     padding: 0%;
+     position: relative;
+     width: 70%;
+ }
+main div #form1{
+    background: lightsteelblue;
+    height: 6em;
+    left:0;
+    top: 5em;
+}
+main div #form2{
+    background: beige;
+    height: 20em;
+    right: 0;
+    top: 5em;
+}
+
+main #form3{
+    background: lightblue;
+    position: absolute;
+    top: 100%;
+}

@@ -1,0 +1,49 @@
+#Encabezado {
+	background: #ff0000;
+	border: solid red;
+	width: 100%;
+	height: 20%;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+main #Encabezado label {
+	margin-left: 30%;
+	margin-right: 15%;
+	font-size: 25px;
+}
+main div h1 {
+	text-align: center;
+}
+#cuadro1 {
+	border: solid red;
+	width: 40%;
+	height:40%;
+	text-align: left;
+	margin-right: 0%;
+	margin-left: 50%;
+		padding: 20px;
+}
+#cuadro2 {
+	border: solid black;
+	text-align: center;
+
+}
+#imagen1 {
+	margin-left: 20%;
+}
+
+#btn {
+	margin-right: 58%;
+}
+#Pie {
+	background: #dcddd5;
+	text-align: center;
+	padding-top: 4%;
+	padding-left: 20%;
+	padding-right: 20%;
+
+}
+button {
+	font-size: 15px;
+}
