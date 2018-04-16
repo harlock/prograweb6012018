@@ -1,0 +1,16 @@
+body{
+    background: white;
+
+}
+body main #buscador{
+    background: #5847dd;
+}
+body  #video{
+    margin-right: 70%;
+}
+body #imagen{
+    background: black;
+    color: white;
+    padding: 8%;
+
+}
