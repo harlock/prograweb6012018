@@ -7,7 +7,7 @@
 	margin-left: 0;
 	margin-right: 0;
 }
-main div label {
+main #Encabezado label {
 	margin-left: 25%;
 	margin-right: 15%;
 }
@@ -21,10 +21,22 @@ main div h1 {
 	text-align: left;
 	margin-right: 0%;
 	margin-left: 50%;
+		padding: 20px;
 }
 #cuadro2 {
 	border: solid blue;
 	margin-top: 10%
 	margin-left :50%;
 	margin-right: 20%;
+
 }
+#imagen1 {
+	margin-left: 20%;
+}
+#cuadro1 h4 {
+	margin-left: 10%;
+}
+#btn {
+	margin-right: 50%;
+}
+
