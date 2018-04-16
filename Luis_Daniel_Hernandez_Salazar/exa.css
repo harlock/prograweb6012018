@@ -1,0 +1,89 @@
+body{font-family: Arial;
+margin-top: 0px;
+margin-left: 0px;
+}
+
+
+.barra{
+	border: solid blue;
+	background: blue;
+	border-top: none;
+	color: green;
+	margin-top: 0px;
+}
+#iconito{
+	margin-top: 0px;
+	float: left;
+	padding: 5px 0px;
+}
+#search{
+	margin-top: 0px;
+	float: left;
+	padding: 5px 20px;
+}
+#ache2{
+	margin-top: 0px;
+	float: left;
+	padding: 6.5px 80px;
+	color: black;
+}
+#boton1{
+	margin-top: 0px;
+	float: left;
+	padding: 5px 20px;
+}
+#boton2{
+	margin-top: 0px;
+	float: left;
+	padding: 5px 20px;
+
+}
+#boton3{
+	margin-top: 0px;
+	float: left;
+	padding: 5px 20px;
+
+}
+#boton4{
+	margin-top: 0px;
+	float: left;
+	padding: 5px 60px;
+}
+#boton5{
+	margin-top: 0px;
+	float: left;
+	padding: 5px 20px;
+
+}
+#button{
+	margin-top: 0px;
+	float: left;
+	padding: 5px 10px
+}
+
+.letra{
+	margin-top: 20%;
+	padding: 50% 35%;
+	font-size: 36;
+
+}
+
+#tabla{
+	margin-top: 5%;
+	margin-left: 35%;
+}
+
+#tabla2{
+	
+	margin-top: 5%;
+	margin-left: 12%;
+	
+}
+
+td{
+	border: hidden;
+}
+
+#tb{
+	background: white;
+}
