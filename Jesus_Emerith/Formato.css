@@ -51,7 +51,17 @@ main div #Parte_derecha{
     right: 0%;
     top:5em;
 }
-main div #Parte_derecha button{
-    margin-top:40%;
+main div #Parte_derecha {
     margin-left: 20%;
+}
+
+main div #Parte_derecha button{
+    margin-left: 20%;
+    margin-top:7%;
+    border-radius:12%;
+}
+main div #Parte_derecha p{
+    margin-left: 3%;
+    font-family: "Times New Roman";
+    font-size: 15px;
 }
