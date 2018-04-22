@@ -1,0 +1,51 @@
+body{
+    border:0;
+    font-family: "Comic Sans MS";
+    font-size: 14px;
+    margin:0;
+    padding:0;
+}
+main form{
+    border: solid 2px #ededef;
+    background: darkgray;
+    width: 100%;
+}
+main div #im{
+    height: 22em;
+    margin-left: 60%;
+    width: 30em;
+}
+main div p{
+    margin-left: 60%;
+}
+main #bot{
+    margin-left: 60%;
+}
+
+
+main form div button{
+    height: 3em;
+    margin: 0%;
+}
+main form div #is{
+    height: 3em;
+    margin-left: 7%;
+}
+
+
+main form div img{
+    width: 6em;
+    height: 2em;
+}
+main form div input{
+    border-radius: 15%;
+    height: 2em;
+    margin-left: 3%;
+}
+main form div label{
+
+   font-size: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
