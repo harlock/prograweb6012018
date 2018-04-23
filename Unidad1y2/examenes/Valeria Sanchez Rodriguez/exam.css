@@ -1,0 +1,27 @@
+#inicio
+{
+	 
+	background: cyan;
+	
+	top:20%;
+}
+#docu
+{
+	text-align: center;
+	top:20%;
+}
+ #doc div
+
+{
+	top:20%;
+	
+	margin-left: 40%;
+	margin-right: 30%;
+	display: inline-block;
+}
+#pie
+{
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+}

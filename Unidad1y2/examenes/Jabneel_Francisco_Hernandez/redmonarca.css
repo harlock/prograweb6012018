@@ -1,0 +1,50 @@
+body{
+    border:0;
+    font-family: "Comic Sans MS";
+    font-size: 14px;
+    margin:0;
+    padding:0;
+}
+main form{
+    border: solid 2px #ededef;
+    background: goldenrod;
+    padding: 0.5%;
+    width: 100%;
+}
+main form div img{
+    width: 6em;
+    height: 2em;
+}
+main form div input{
+    border-radius: 15%;
+    height: 2em;
+    margin-left: 5%;
+}
+main form div label{
+
+    font-size: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+main div #form1
+{
+    background: #4dbded;
+    height: 20em;
+    left: 0;
+    top: 5em;
+}
+
+#imge{
+   margin-right: 10%;
+}
+main #form1{
+    background: gainsboro;
+}
+main #form2{
+    background:greenyellow;
+    left: 0;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+

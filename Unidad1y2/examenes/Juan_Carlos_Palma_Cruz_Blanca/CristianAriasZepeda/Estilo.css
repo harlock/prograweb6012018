@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);
+body {
+	font-family: Arial;
+}
+body div h3{
+	color: black;
+	font-size: 1em;
+	padding-left: 1%;
+	padding-right: 12%;  
+}
+body div h1{
+	padding-left: 40%;
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid gray;
+    background-color: gray;
+    width: 1189px;
+    display: inline-flex;
+}
+.tab button, input[type="submit"] {
+    font:1em 'Montserrat Alternates';
+    float: left;
+    border: 1px;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    background-color: white;
+}
+.tab button:hover {
+    background-color: #ddd;
+}
+.tab button.active {
+    background-color: #ccc;
+}
+#Bowserdiv{
+    background-color: gray;
+    width: 74%;
+}
+#Bowserdiv h3{
+    color: white;
+    font:1em 'Montserrat Alternates';
+    text-align: center;
+}
+#Dino {
+    border: 1px solid gray;
+    margin-bottom:7%;
+    margin-left: 29%;
+    text-align: center;
+    width: 45%;
+}
+#Dino button{
+    color: white;
+    background-color: gray;
+    font:1em 'Montserrat Alternates';
+    padding: 3%;
+}
