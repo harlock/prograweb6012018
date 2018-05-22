@@ -8,8 +8,7 @@
 
     define('DS',DIRECTORY_SEPARATOR);
     define('ROOT',realpath(dirname(__FILE__)).DS);
-    define('URL',"http://localhost/601/xd/Hotel_Proyecto/");
-
+    define('URL',"http://localhost/HP/");
 
     require_once ("AppData/Config/Autoload.php");
     \AppData\Config\Autoload::run();

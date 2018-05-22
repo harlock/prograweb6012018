@@ -22,12 +22,25 @@ class Almacen
         $this->conexion=new conexion();
     }
 
+    function get($atributo,$valor)
+    {
+        $this->$atributo=$valor;
+    }
+
+    function set($atributo)
+    {
+        return $this->$atributo;
+    }
+
     function add(){
 
     }
-    function get(){
-        $sql="select*from almacen";
-        $datos=$this->conexion->queryResultado($sql);
+    function getAll(){
+        $sql="SELECT productos.id_producto, productos.nombre_pro, categorias_producto.descripcion_cat, 
+tipos_producto.descripcion_pro, productos.existencias, productos.stock_min, productos.stock_max FROM 
+productos, categorias_producto, tipos_producto WHERE productos.id_categoriapro=categorias_producto.id_categoriapro AND 
+tipos_producto.id_tipopro=productos.id_tipopro ORDER BY `productos`.`id_producto` ASC ";
+        $datos=$this->conexion->QueryResultado($sql);
         return $datos;
     }
     function update(){
