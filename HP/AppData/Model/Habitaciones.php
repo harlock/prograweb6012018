@@ -48,7 +48,6 @@ class Habitaciones
         return $datos;
     }
 
-<<<<<<< HEAD
     function getDatos()
     {
         $sql="SELECT * FROM tipos_habitacion";
@@ -61,17 +60,5 @@ class Habitaciones
         $sql="SELECT * FROM estado_habitacion";
         $result2=$this->conexion->QueryResultado($sql);
         return $result2;
-=======
-    function getDatos(){
-        $sql="select * from tipos_habitacion";
-        $result3=$this->conexion->QueryResultado($sql);
-        Return $result3;
-    }
-
-    function getDatos2(){
-        $sql="select * from estado_habitacion";
-        $result2=$this->conexion->QueryResultado($sql);
-        Return $result2;
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
     }
 }

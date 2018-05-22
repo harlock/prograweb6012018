@@ -8,11 +8,7 @@
 
     define('DS',DIRECTORY_SEPARATOR);
     define('ROOT',realpath(dirname(__FILE__)).DS);
-<<<<<<< HEAD
     define('URL',"http://localhost/HP/");
-=======
-    define('URL',"http://localhost:82/prograweb6012018/Hotel_Proyecto/");
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
 
     require_once ("AppData/Config/Autoload.php");
     \AppData\Config\Autoload::run();

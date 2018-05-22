@@ -10,60 +10,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Asignacion_de_servicios.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppData/Model/Asignacion_de_servicios.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="490">
               <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-=======
-    <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Views/Lavanderia/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="198" column="69" selection-start-line="198" selection-start-column="69" selection-end-line="198" selection-end-column="69" />
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file leaf-file-name="asignacion_de_serviciosController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppData/Controller/asignacion_de_serviciosController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
               <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-=======
-      <file leaf-file-name="lavanderiaController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppData/Controller/lavanderiaController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Views/Asignacion_de_servicios/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="262">
               <caret line="248" column="75" selection-start-line="248" selection-start-column="75" selection-end-line="248" selection-end-column="75" />
-=======
-      <file leaf-file-name="Lavanderia.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppData/Model/Lavanderia.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="32" column="464" selection-start-line="32" selection-start-column="464" selection-end-line="32" selection-end-column="464" />
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file leaf-file-name="habitacionesController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppData/Controller/habitacionesController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,37 +52,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="173">
               <caret line="245" column="28" selection-start-line="245" selection-start-column="28" selection-end-line="245" selection-end-column="66" />
-=======
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Views/Empleados/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4077" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="empleadosController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AppData/Controller/empleadosController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file leaf-file-name="Habitaciones.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppData/Model/Habitaciones.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="366">
               <caret line="54" column="20" selection-start-line="52" selection-start-column="8" selection-end-line="54" selection-end-column="24" />
-=======
-      <file leaf-file-name="Empleados.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppData/Model/Empleados.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
             </state>
           </provider>
         </entry>
@@ -124,7 +76,6 @@
       <find>tipo</find>
       <find>from</find>
       <find>table</find>
-<<<<<<< HEAD
       <find>&lt;se</find>
       <find>&lt;select</find>
       <find>--&gt;--&gt;</find>
@@ -132,8 +83,6 @@
       <find>&lt;div style=</find>
       <find>selec</find>
       <find>select</find>
-=======
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -145,37 +94,17 @@
         <option value="$PROJECT_DIR$/AppData/Model/conexion.php" />
         <option value="$PROJECT_DIR$/../ProyectoPHP/AppData/Controller/estado_habitacionesController.php" />
         <option value="$PROJECT_DIR$/Views/Template.php" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Views/Servicios/index.php" />
         <option value="$PROJECT_DIR$/AppData/Controller/almacenController.php" />
         <option value="$PROJECT_DIR$/AppData/Model/Almacen.php" />
         <option value="$PROJECT_DIR$/Views/Almacen/index.php" />
         <option value="$PROJECT_DIR$/AppData/Model/Check_in.php" />
         <option value="$PROJECT_DIR$/AppData/Controller/check_inController.php" />
-=======
-        <option value="$PROJECT_DIR$/AppData/Controller/serviciosController.php" />
-        <option value="$PROJECT_DIR$/Views/Servicios/index.php" />
-        <option value="$PROJECT_DIR$/AppData/Model/Servicios.php" />
-        <option value="$PROJECT_DIR$/AppData/Controller/almacenController.php" />
-        <option value="$PROJECT_DIR$/AppData/Model/Almacen.php" />
-        <option value="$PROJECT_DIR$/Views/Almacen/index.php" />
-        <option value="$PROJECT_DIR$/Views/Habitaciones/index.php" />
-        <option value="$PROJECT_DIR$/AppData/Model/Check_in.php" />
-        <option value="$PROJECT_DIR$/AppData/Controller/check_inController.php" />
-        <option value="$PROJECT_DIR$/AppData/Controller/habitacionesController.php" />
-        <option value="$PROJECT_DIR$/AppData/Model/Habitaciones.php" />
-        <option value="$PROJECT_DIR$/Views/checkin/index.php" />
-        <option value="$PROJECT_DIR$/AppData/Model/Checkin.php" />
-        <option value="$PROJECT_DIR$/AppData/Controller/checkoutController.php" />
-        <option value="$PROJECT_DIR$/Views/checkout/index.php" />
-        <option value="$PROJECT_DIR$/AppData/Model/Checkout.php" />
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
         <option value="$PROJECT_DIR$/AppData/Model/Lavanderia.php" />
         <option value="$PROJECT_DIR$/Views/Lavanderia/index.php" />
         <option value="$PROJECT_DIR$/AppData/Controller/lavanderiaController.php" />
         <option value="$PROJECT_DIR$/AppData/Model/Empleados.php" />
         <option value="$PROJECT_DIR$/AppData/Controller/empleadosController.php" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/AppData/Model/Habitaciones.php" />
         <option value="$PROJECT_DIR$/AppData/Controller/habitacionesController.php" />
         <option value="$PROJECT_DIR$/AppData/Model/Checkin.php" />
@@ -193,8 +122,6 @@
         <option value="$PROJECT_DIR$/AppData/Model/Asignacion_de_servicios.php" />
         <option value="$PROJECT_DIR$/AppData/Controller/asignacion_de_serviciosController.php" />
         <option value="$PROJECT_DIR$/Views/Asignacion_de_servicios/index.php" />
-=======
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
       </list>
     </option>
   </component>
@@ -218,10 +145,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
-=======
-      <pane id="Scope" />
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,7 +169,6 @@
               <item name="AppData" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
-<<<<<<< HEAD
             <path>
               <item name="HP" type="b2602c69:ProjectViewProjectNode" />
               <item name="HP" type="462c0819:PsiDirectoryNode" />
@@ -258,16 +180,11 @@
               <item name="Views" type="462c0819:PsiDirectoryNode" />
               <item name="Asignacion_de_servicios" type="462c0819:PsiDirectoryNode" />
             </path>
-=======
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
           </expand>
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
       <pane id="Scope" />
-=======
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,15 +215,11 @@
       <option name="presentableId" value="Default" />
       <updated>1526584816788</updated>
       <workItem from="1526845111480" duration="25545000" />
-<<<<<<< HEAD
       <workItem from="1526978743259" duration="5898000" />
-=======
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
     <option name="totallyTimeSpent" value="32455000" />
   </component>
   <component name="ToolWindowManager">
@@ -328,30 +241,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-=======
-    <option name="totallyTimeSpent" value="25545000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24962178" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -362,32 +251,19 @@
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25340393" />
-=======
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24962178" />
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-<<<<<<< HEAD
       <window_info anchor="bottom" id="Find" order="6" weight="0.32838285" />
-=======
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
-<<<<<<< HEAD
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="5" />
-=======
-      <window_info anchor="bottom" id="Find" order="6" />
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
       <window_info id="Favorites" order="0" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -398,7 +274,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/AppData/Controller/empleadosController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -435,8 +310,6 @@
         </state>
       </provider>
     </entry>
-=======
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
     <entry file="file://$PROJECT_DIR$/Views/inicio/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -543,16 +416,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-=======
-    <entry file="file://$PROJECT_DIR$/AppData/Controller/serviciosController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
     <entry file="file://$PROJECT_DIR$/Views/Servicios/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -560,16 +423,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-=======
-    <entry file="file://$PROJECT_DIR$/AppData/Model/Servicios.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
     <entry file="file://$PROJECT_DIR$/AppData/Model/Almacen.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -591,7 +444,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Views/Lavanderia/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
@@ -622,40 +474,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AppData/Controller/lavanderiaController.php">
-=======
-    <entry file="file://$PROJECT_DIR$/AppData/Controller/checkinController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppData/Model/Checkin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="48" column="787" lean-forward="true" selection-start-line="48" selection-start-column="326" selection-end-line="48" selection-end-column="787" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Views/checkout/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="176" column="4" selection-start-line="176" selection-start-column="4" selection-end-line="228" />
-          <folding>
-            <element signature="e#14405#14477#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppData/Controller/checkoutController.php">
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/AppData/Controller/empleadosController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -674,47 +498,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
           <caret line="47" column="474" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="474" />
-=======
-    <entry file="file://$PROJECT_DIR$/AppData/Model/Checkout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppData/Model/Habitaciones.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Habitaciones/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="243" column="122" lean-forward="true" selection-start-line="243" selection-start-column="36" selection-end-line="243" selection-end-column="122" />
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Views/checkin/index.php">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="360">
           <caret line="161" column="35" selection-start-line="161" selection-start-column="35" selection-end-line="161" selection-end-column="35" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-=======
-        <state relative-caret-position="1865">
-          <caret line="248" column="17" lean-forward="true" selection-start-line="177" selection-end-line="248" selection-end-column="17" />
-          <folding>
-            <element signature="e#10257#10321#0#PHP" expanded="true" />
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/AppData/Model/Checkout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -789,55 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="248" column="75" selection-start-line="248" selection-start-column="75" selection-end-line="248" selection-end-column="75" />
-=======
-    <entry file="file://$PROJECT_DIR$/Views/Lavanderia/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="198" column="69" selection-start-line="198" selection-start-column="69" selection-end-line="198" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppData/Controller/habitacionesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Empleados/Empleados.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppData/Model/Lavanderia.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="32" column="464" selection-start-line="32" selection-start-column="464" selection-end-line="32" selection-end-column="464" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppData/Model/Empleados.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Empleados/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4077" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppData/Controller/lavanderiaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppData/Controller/empleadosController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
         </state>
       </provider>
     </entry>

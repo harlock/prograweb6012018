@@ -154,13 +154,9 @@
                     </thead>
                     <tbody>
                     <?php
-<<<<<<< HEAD
 
                     $datos1=$datos[0];
                     while($row=mysqli_fetch_array($datos1))
-=======
-                    while($row=mysqli_fetch_array($datos))
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
                         echo "
                     <tr>
                         <td>{$row[0]}</td>
@@ -190,11 +186,7 @@
 <!--            <div class="card-panel">-->
 <!--                <h4 align="center">Entradas Registradas</h4>-->
 <!--                <div class="divider"></div>-->
-<<<<<<< HEAD
 <!--                <!-- Modal eliminar -->
-=======
-<!--                <!-- Modal eliminar -->-->
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
 <!--                <div id="modal_eliminar" class="modal">-->
 <!--                    <div class="modal-content">-->
 <!--                        <h5>¿Desea Eliminar el Registro?</h5>-->
@@ -205,11 +197,7 @@
 <!--                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancelar</a>-->
 <!--                    </div>-->
 <!--                </div>-->
-<<<<<<< HEAD
 <!--                <!--*********************final modal eliminar***********-->
-=======
-<!--                <!--*********************final modal eliminar***********-->-->
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
 <!--                <div style="overflow-x: auto">-->
 <!--                    <table class="centered">-->
 <!--                        <thead>-->
@@ -258,11 +246,7 @@
 <!--                    </table>-->
 <!--                </div>-->
 <!--                <div class="divider"></div>-->
-<<<<<<< HEAD
 <!--                <!--********************************-->
-=======
-<!--                <!--********************************-->-->
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
 <!---->
 <!--            </div>-->
 <!--        </div>-->

@@ -125,20 +125,12 @@
                             </div>
 
                             <div class="input-field col s4">
-<<<<<<< HEAD
                                 <select id="tipohabitacion" type="text" class="validate" name="id_tipoh">
                                     <option value="" disabled selected>Selecciona Tipo de la Habitacion</option>
                                     <?php
                                     $result3=$datos[1];
                                     while ($row=mysqli_fetch_array($result3))
                                     echo "<option value='{$row[0]}'>{$row[1]}</option>";
-=======
-                                <select id="tipohabitacion" type="text" class="validate" name="tipohabitacion ">
-                                    <?php
-                                       $result3=datos[1];
-                                       while ($row=mysqli_fetch_array($result3))
-                                       echo "<option value='{$row[0]}'>{$row[1]}</option>"
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
                                     ?>
                                 </select>
                                 <label for="tipohabitacion" data-error="incorrecto" data-success="Correcto" >Tipo de Habitación</label>
@@ -159,18 +151,11 @@
 
                             <div class="input-field col s4">
                                 <select id="nomestadohabitacion" type="text" class="validate" name="nomestadohabitacion">
-<<<<<<< HEAD
                                     <option value="" disabled selected>Selecciona Estado de la Habitacion</option>
                                     <?php
                                     $result2=$datos[3];
                                     while ($row=mysqli_fetch_array($result2))
                                     echo "<option value='{$row[0]}'>{$row[1]}</option>";
-=======
-                                    <?php
-                                    $result2=datos[2];
-                                    while ($row=mysqli_fetch_array($result2))
-                                        echo "<option value='{$row[0]}'>{$row[1]}</option>"
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
                                     ?>
                                 </select>
                                 <label for="nomestadohabitacion" data-error="incorrecto" data-success="Correcto"> Estado de la Habitación</label>
@@ -257,16 +242,11 @@
 
                     <tbody>
                         <?php
-<<<<<<< HEAD
                         $datos=$datos[0];
                             while($row=mysqli_fetch_array($datos))
                                 echo "<tr><td>{$row[0]}</td>
                                 <td>{$row['num_habitacion']}</td>
                                 <td>{$row['descripcion_hab']}</td>
-=======
-                            while($row=mysqli_fetch_array($datos))
-                                echo "<tr><td>{$row[0]}</td><td>{$row['num_habitacion']}</td><td>{$row['descripcion_hab']}</td>
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
                                 <td>{$row['tipo_ha']}</td><td>{$row['estado_ha']}</td>
                                 <td><a class=\"btn-flat modal-trigger icon-cross red-text\" href=\"#modal_eliminar\"></a></td>
                                 <td><a class=\"btn-flat modal-trigger  icon-pencil blue-text\" href=\"#modal_editar\"></a></td></tr>";

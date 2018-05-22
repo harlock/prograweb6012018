@@ -206,12 +206,8 @@
                         </tr>
                         </thead>
                         <?php
-<<<<<<< HEAD
                         $datos1=$datos[0];
                         while ($row=mysqli_fetch_array($datos1))
-=======
-                        while ($row=mysqli_fetch_array($datos))
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
                         echo "
                         <tr>
                         <td>{$row[0]}</td>

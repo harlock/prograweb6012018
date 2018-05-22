@@ -40,15 +40,12 @@ class Checkout
         $datos=$this->conexion->QueryResultado($sql);
         return $datos;
     }
-<<<<<<< HEAD
     function getDatos()
     {
         $sql="SELECT * FROM tipos_habitacion";
         $result3=$this->conexion->QueryResultado($sql);
         return $result3;
     }
-=======
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
     function update(){
 
     }

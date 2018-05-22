@@ -349,11 +349,8 @@
                         </div>
                     </div>
                     <!--*********************final modal eliminar***********-->
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
                     <table class="centered">
                         <thead>
                         <tr>
@@ -366,7 +363,6 @@
                         </thead>
 
                         <tbody>
-<<<<<<< HEAD
                         <?php
                         $datos=$datos[0];
                         while ($row=mysqli_fetch_array($datos))
@@ -380,34 +376,6 @@
                         </tr>
                         ";
                         ?>
-=======
-                        <tr>
-                            <td>12</td>
-                            <td>Spa</td>
-                            <td>Disponible</td>
-                            <td>12/04/2018</td>
-
-                            <td><a class="btn-flat modal-trigger icon-cross red-text" href="#modal_eliminar"></a></td>
-                        </tr>
-                        <tr>
-                            <td>13</td>
-                            <td>Spa</td>
-                            <td>Disponible</td>
-                            <td>12/04/2018</td>
-
-                            <td><a class="btn-flat modal-trigger icon-cross red-text" href="#modal_eliminar"></a></td>
-
-                        </tr>
-                        <tr>
-                            <td>14</td>
-                            <td>Internet</td>
-                            <td>No disponible</td>
-                            <td>12/04/2018</td>
-
-                            <td><a class="btn-flat modal-trigger icon-cross red-text" href="#modal_eliminar"></a></td>
-
-                        </tr>
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
                         </tbody>
                         <div class="divider"></div>
                     </table>

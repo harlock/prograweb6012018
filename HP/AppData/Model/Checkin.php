@@ -50,7 +50,6 @@ class Checkin
         $datos=$this->conexion->QueryResultado($sql);
         return $datos;
     }
-<<<<<<< HEAD
 
     function getDatos()
     {
@@ -58,6 +57,4 @@ class Checkin
         $result3=$this->conexion->QueryResultado($sql);
         return $result3;
     }
-=======
->>>>>>> 2cbe7d7094aa2c3c5cc40209028f757c4e7198cd
 }
