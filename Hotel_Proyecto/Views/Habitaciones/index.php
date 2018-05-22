@@ -6,41 +6,27 @@
  * Time: 03:39 PM
  */
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="imagenes/601.PNG" sizes="36x36">
-    <link href="css/materialize.min.css" type="text/css" rel="stylesheet">
-    <link href="css/style.min.css" type="text/css" rel="stylesheet">
-    <link href="css/custom.min.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Inicio</title>
-</head>
 
 <body>
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
-
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
-
-<div id="main">
+    <div id="main">
 
     <div id="panel1" class="row col pad">
         <div class="col s12 m10 offset-m1">
             <div class="card-panel">
-                <h4 align="center "  > Habitación   </h4>
 
-                <hr /><!--ESTA LINEA DE CODIGO SE UTILIZA PARA CREAR LINEAS  -->
+                <h4 class="left"><a class="icon-diamonds black-text"></a></h4>
+                <h4 align="center">Habitación</h4>
+
+                <div class="divider"></div>
                 <code class=" language-markup"><!--********************************--></code>
                 <div class="row">
                     <!--********************************-->
                     <form class="col s12 right-alert">
                         <!--********************************-->
                         <div class="row">
-                            <div class="input-field input-field col s6 text">
+                            <div class="input-field input-field col s4 text">
                                 <i class="mdi-action-verified-user prefix icon-list-numbered"></i>
-                                <input id="numero_habitacion" type="number" class="validate" >
+                                <input id="numero_habitacion" type="number" class="validate" name="numero_habitacion">
                                 <label for="numero_habitacion"  data-error="Incorrecto" data-success="Correcto" >Número de Hábitación</label>
                             </div>
                         </div>
@@ -48,7 +34,7 @@
                         <div class="row">
                             <div class="input-field col s9">
                                 <i class="mdi-action-verified-user prefix icon-pencil"></i>
-                                <input id="descripcion" type="text" class="validate">
+                                <input id="descripcion" type="text" class="validate" name="descripcion">
                                 <label for="descripcion"  data-error="incorrecto" data-success="Correcto">Descripción</label>
                             </div>
                         </div>
@@ -103,7 +89,7 @@
                                 <div class="row">
                                     <form class="col s12 pad">
                                         <div class="row">
-                                            <div class="input-field input-field col s10 text">
+                                            <div class="input-field input-field col s10">
                                                 <i class="mdi-action-verified-user prefix icon-circleci"></i>
                                                 <input id="descripcion_estado" type="number" class="validate center" >
                                                 <label for="descripcion_estado"  data-error="Incorrecto" data-success="Correcto">Descripción</label>
@@ -133,16 +119,18 @@
 
                         <!--*******************seleccionar opcion*************-->
                         <div class="row">
+
                             <div class="input-field col s1">
                                 <a class="btn-floating disabled"><i class="icon-command #000000 black"></i></a>
                             </div>
 
-                            <div class="input-field col s8 ">
-                                <select id="tipohabitacion" type="text" class="validate">
-                                    <option value="" disabled selected>Selecciona categoria</option>
-                                    <option value="1">Ejemplo Habitacion Premium</option>
-                                    <option value="2">Ejemplo Habitacion Plata</option>
-                                    <option value="3">Ejemplo Habitacion Oro</option>
+                            <div class="input-field col s4">
+                                <select id="tipohabitacion" type="text" class="validate" name="tipohabitacion ">
+                                    <?php
+                                       $result3=datos[1];
+                                       while ($row=mysqli_fetch_array($result3))
+                                       echo "<option value='{$row[0]}'>{$row[1]}</option>"
+                                    ?>
                                 </select>
                                 <label for="tipohabitacion" data-error="incorrecto" data-success="Correcto" >Tipo de Habitación</label>
                                 <script type="text/javascript">
@@ -155,25 +143,20 @@
                             <div class="input-field col s1">
                                 <a class="btn-floating disabled waves-effect waves-light btn modal-trigger" href="#modal_tipo_habitacion" ><i class="icon-plus #00838f cyan darken-3"></i></a>
                             </div>
-                        </div>
 
-                        <!--********************************-->
-
-
-                        <!--******************Estado habitacion**************-->
-
-                        <div class="row">
                             <div class="input-field col s1">
                                 <a class="btn-floating disabled"><i class="icon-command #000000 black"></i></a>
                             </div>
 
-                            <div class="input-field col s8 ">
-                                <select id="nomestadohabitacion" type="text" class="validate">
-                                    <option value="" disabled selected>Selecciona Estado de la habitacion</option>
-                                    <option value="1">Ocupado</option>
-                                    <option value="2">Libre</option>
+                            <div class="input-field col s4">
+                                <select id="nomestadohabitacion" type="text" class="validate" name="nomestadohabitacion">
+                                    <?php
+                                    $result2=datos[2];
+                                    while ($row=mysqli_fetch_array($result2))
+                                        echo "<option value='{$row[0]}'>{$row[1]}</option>"
+                                    ?>
                                 </select>
-                                <label for="nomestadohabitacion" data-error="incorrecto" data-success="Correcto"> Estado de la habitación</label>
+                                <label for="nomestadohabitacion" data-error="incorrecto" data-success="Correcto"> Estado de la Habitación</label>
                                 <script type="text/javascript">
                                     $(document).ready(function(){
                                         $('select').formSelect();
@@ -187,6 +170,8 @@
                         </div>
 
                         <!--********************************-->
+
+                        <!--********************************-->
                         <div class="row">
                             <div class="input-field col s12">
                                 <button class="btn waves-effect waves-light right #0097a7 cyan darken-2 modal-trigger"  href="#modal_registro" type="submit" name="action">Registrar</button>
@@ -198,6 +183,7 @@
                         <div id="modal_registro" class="modal">
                             <div class="modal-content">
                                 <h5>Mensaje</h5>
+                                    No se pueden registrar habitaciones sin datos
                                 <hr />
                             </div>
                             <div class="modal-footer">
@@ -216,7 +202,7 @@
         <div class="col s12 m10 offset-m1">
             <div class="card-panel">
                 <h4 align="center">Habitaciones Registradas</h4>
-                <hr />
+                <div class="divider"></div>
 
                 <div class="row">
                     <div class="input-field col s4 offset-s8">
@@ -241,6 +227,7 @@
                 <table class="centered">
                     <thead>
                     <tr>
+                        <th>id</th>
                         <th>Numero de Habitación</th>
                         <th>Descripción</th>
                         <th>Tipo Habitación</th>
@@ -252,43 +239,21 @@
                     </thead>
 
                     <tbody>
-                    <tr>
-                        <td>12</td>
-                        <td>Platino</td>
-                        <td>Doble</td>
-                        <td>Disponible</td>
-                        <td><a class="btn-flat modal-trigger icon-cross red-text" href="#modal_eliminar"></a></td>
-                    </tr>
-                    <tr>
-                        <td>13</td>
-                        <td>Dorada</td>
-                        <td>Individual</td>
-                        <td>Disponible</td>
-                        <td><a class="btn-flat modal-trigger icon-cross red-text" href="#modal_eliminar"></a></td>
-
-                    </tr>
-                    <tr>
-                        <td>14</td>
-                        <td>Estrella</td>
-                        <td>Matrimonial</td>
-                        <td>Disponible</td>
-                        <td><a class="btn-flat modal-trigger icon-cross red-text" href="#modal_eliminar"></a></td>
-
-                    </tr>
+                        <?php
+                            while($row=mysqli_fetch_array($datos))
+                                echo "<tr><td>{$row[0]}</td><td>{$row['num_habitacion']}</td><td>{$row['descripcion_hab']}</td>
+                                <td>{$row['tipo_ha']}</td><td>{$row['estado_ha']}</td>
+                                <td><a class=\"btn-flat modal-trigger icon-cross red-text\" href=\"#modal_eliminar\"></a></td>
+                                <td><a class=\"btn-flat modal-trigger  icon-pencil blue-text\" href=\"#modal_editar\"></a></td></tr>";
+                        ?>
                     </tbody>
+                    <div class="divider"></div>
                 </table>
+                <div class="divider"></div>
                 <!--********************************-->
 
             </div>
         </div>
     </div>
 </div>
-
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
-<script type="text/javascript" src="js/plugins/jquery-1.11.2.min.js"></script>
-<script type="text/javascript" src="js/plugins/materialize.min.js"></script>
-<script type="text/javascript" src="js/plugins/plugins.min.js"></script>
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
-
 </body>
-</html>

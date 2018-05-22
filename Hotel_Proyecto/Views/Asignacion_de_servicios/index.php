@@ -7,30 +7,14 @@
  */
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="imagenes/601.PNG" sizes="36x36">
-    <link href="css/materialize.min.css" type="text/css" rel="stylesheet">
-    <link href="css/style.min.css" type="text/css" rel="stylesheet">
-    <link href="css/custom.min.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Inicio</title>
-</head>
-
 <body>
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
-
-
 <div id="main">
-
     <div id="panel1" class="row col pad">
         <div class="col s12 m10 offset-m1">
             <div class="card-panel">
-                <h4 align="center">Asignacion de Servicios</h4>
-                <hr /><!--ESTA LINEA DE CODIGO SE UTILIZA PARA CREAR LINEAS  -->
+                <h4 class="left"><a class="icon-loop2 black-text"></a></h4>
+                <h4 align="center">Asignación de Servicios</h4>
+                <div class="divider"></div>
                 <code class=" language-markup"><!--********************************--></code>
                 <div class="row">
                     <!--********************************-->
@@ -338,87 +322,72 @@
         </div>
     </div>
 
-
-
-    <!--********************************-->
     <div id="paneltablas" class="row col ">
-        <div class="col s12 m10 offset-m1">
-            <div class="card-panel">
-                <h4 align="center">Servicios Registrados</h4>
-                <hr />
+            <div class="col s12 m10 offset-m1">
+                <div class="card-panel">
+                    <h4 align="center">Salidas Registradas</h4>
+                    <div class="divider"></div>
 
-                <div class="row">
-                    <div class="input-field col s4 offset-s8">
-                        <i class="mdi-action-verified-user prefix icon-search"></i>
-                        <label for="Buscar"  data-error="incorrecto" data-success="Correcto">Buscar</label>
 
-                        <input id="buscar" type="text">
+                    <!-- Modal eliminar -->
+                    <div id="modal_eliminar" class="modal">
+                        <div class="modal-content">
+                            <h5>¿Desea Eliminar el Registro?</h5>
+                            <hr />
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Aceptar</a>
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancelar</a>
+                        </div>
                     </div>
+                    <!--*********************final modal eliminar***********-->
+                    <table class="centered">
+                        <thead>
+                        <tr>
+                            <th>Habitaciónes</th>
+                            <th>Servicios</th>
+                            <th>Estado</th>
+                            <th>Fecha</th>
+
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                        <tr>
+                            <td>12</td>
+                            <td>Spa</td>
+                            <td>Disponible</td>
+                            <td>12/04/2018</td>
+
+                            <td><a class="btn-flat modal-trigger icon-cross red-text" href="#modal_eliminar"></a></td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>Spa</td>
+                            <td>Disponible</td>
+                            <td>12/04/2018</td>
+
+                            <td><a class="btn-flat modal-trigger icon-cross red-text" href="#modal_eliminar"></a></td>
+
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>Internet</td>
+                            <td>No disponible</td>
+                            <td>12/04/2018</td>
+
+                            <td><a class="btn-flat modal-trigger icon-cross red-text" href="#modal_eliminar"></a></td>
+
+                        </tr>
+                        </tbody>
+                        <div class="divider"></div>
+                    </table>
+                    <div class="divider"></div>
+                    <!--********************************-->
+
                 </div>
-
-
-                <!-- Modal eliminar -->
-                <div id="modal_eliminar" class="modal">
-                    <div class="modal-content">
-                        <h5>¿Desea Eliminar el Registro?</h5>
-                        <hr />
-                    </div>
-                    <div class="modal-footer">
-                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Aceptar</a>
-                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancelar</a>
-                    </div>
-                </div>
-                <!--*********************final modal eliminar***********-->
-                <table class="centered">
-                    <thead>
-                    <tr>
-                        <th>Habitaciónes</th>
-                        <th>Servicios</th>
-                        <th>Estado</th>
-                        <th></th>
-                        <th></th>
-
-                    </tr>
-                    </thead>
-
-                    <tbody>
-                    <tr>
-                        <td>12</td>
-                        <td>Spa</td>
-                        <td>Disponible</td>
-
-                        <td><a class="btn-flat modal-trigger icon-cross red-text" href="#modal_eliminar"></a></td>
-                    </tr>
-                    <tr>
-                        <td>13</td>
-                        <td>Spa</td>
-                        <td>Disponible</td>
-
-                        <td><a class="btn-flat modal-trigger icon-cross red-text" href="#modal_eliminar"></a></td>
-
-                    </tr>
-                    <tr>
-                        <td>14</td>
-                        <td>Internet</td>
-                        <td>No disponible</td>
-
-                        <td><a class="btn-flat modal-trigger icon-cross red-text" href="#modal_eliminar"></a></td>
-
-                    </tr>
-                    </tbody>
-                </table>
-                <!--********************************-->
-
             </div>
-        </div>
     </div>
+
 </div>
-
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
-<script type="text/javascript" src="js/plugins/jquery-1.11.2.min.js"></script>
-<script type="text/javascript" src="js/plugins/materialize.min.js"></script>
-<script type="text/javascript" src="js/plugins/plugins.min.js"></script>
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
-
 </body>
-</html>

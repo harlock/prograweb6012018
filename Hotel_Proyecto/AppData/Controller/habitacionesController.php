@@ -20,7 +20,12 @@ class habitacionesController
 
     public function index()
     {
-        $datos=$this->habitaciones->getAll();
+        $datos1=$this->habitaciones->getAll();
+        $datos2=$this->habitaciones->getdatos();
+        $datos3=$this->habitaciones->getdatos2();
+        $datos[0]=$datos1;
+        $datos[1]=$datos2;
+        $datos[2]=$datos3;
         return $datos;
     }
 }

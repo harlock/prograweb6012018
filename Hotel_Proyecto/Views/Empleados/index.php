@@ -6,49 +6,13 @@
  * Time: 06:00 PM
  */
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="icon" href="imagenes/601.PNG" sizes="36x36">
-    <link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
-    <link href="css/materialize.min.css" type="text/css" rel="stylesheet">
-    <link href="css/style.min.css" type="text/css" rel="stylesheet">
-    <link href="css/custom.min.css" type="text/css" rel="stylesheet">
-
-    <meta charset="UTF-8">
-    <title>Empelados</title>
-    <script type="text/javascript"src="js/plugins/chartist.min.js"></script>
-    <script type="text/javascript"src="js/plugins/chartist.css"></script>
-    <script type="text/javascript"src="js/plugins/imagesloaded.pkgd.min.js"></script>
-    <script type="text/javascript"src="js/plugins/jquery-1.11.2.min.js"></script>
-    <link rel="stylesheet" href="=css/normalize.css">
-    <link rel="stylesheet" href="css/materialize.min.css">
-    <link rel="stylesheet" href="css/style.css">
-
-    <script type="text/javascript"src="js/plugins/plugins.min.js"></script>
-
-    <link rel="stylesheet" href="style.css">
-    <link href="js/plugins/prism.css" type="text/css" rel="stylesheet">
-    <link href="js/plugins/perfect-scrollbar.css" type="text/css" rel="stylesheet">
-    <link href="js/plugins/chartist.min.css" type="text/css" rel="stylesheet">
-    <title>Inicio</title>
-</head>
-
-<body>
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
-
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
-
 <div id="main">
-
-    <div id="panel1" class="row col ">
+    <div id="panel1" class="row col pad">
         <div class="col s12 m10 offset-m1">
             <div class="card-panel">
+                <h4 class="left"><a class="icon-user-tie black-text"></a></h4>
                 <h4 align="center">Empleados</h4>
-                <hr /><!--ESTA LINEA DE CODIGO SE UTILIZA PARA CREAR LINEAS  -->
+                <div class="divider"></div>
                 <code class=" language-markup"><!--********************************--></code>
                 <div class="row">
                     <!--********************************-->
@@ -123,7 +87,7 @@
                                             <div class="input-field input-field col s10 text">
                                                 <i class="mdi-action-verified-user prefix icon-pencil"></i>
                                                 <input id="desc_puesto" type="text" class="validate center" >
-                                                <label for="desc_puesto"  data-error="Incorrecto" data-success="Correcto" >Describe puesto</label>
+                                                <label for="desc_puesto"  data-error="Incorrecto" data-success="Correcto" >Descripción del Puesto</label>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -194,9 +158,9 @@
 
                         <div id="modal_registro" class="modal">
                             <div class="modal-content">
-                                <div class="card-panel teal #00b8d4"><h5>Registro exitoso</h5></div>
+                                <div align="center" class="card-panel teal #00b8d4"><h5>Registro exitoso</h5></div>
 
-                                <hr />
+                                <div  class="divider"></div>
                                 <table>
                                     <tr>
                                         <th>Nombre</th>
@@ -219,6 +183,7 @@
                                         <td>matutino</td>
                                     </tr>
                                 </table>
+                                <div class="divider"></div>
 
                             </div>
                             <div class="modal-footer">
@@ -229,16 +194,14 @@
                     </form>
                 </div>
             </div>
-
         </div>
     </div>
-    <!--********************************-->
 
     <div id="paneltablas" class="row col ">
         <div class="col s12 m10 offset-m1">
             <div class="card-panel">
                 <h4 align="center">Registro de empleados</h4>
-                <hr />
+                <div class="divider"></div>
 
                 <div class="row">
                     <div class="input-field col s4 offset-s8">
@@ -246,13 +209,11 @@
                         <input id="buscar" type="text">
                     </div>
                 </div>
-
-
                 <!-- Modal eliminar -->
                 <div id="modal_eliminar" class="modal">
                     <div class="modal-content">
                         <div class="card-panel teal #00b8d4"><h5>¿Desea Eliminar el Registro?</h5></div>
-                        <hr />
+                        <div class="divider"></div>
                     </div>
                     <div class="modal-footer">
                         <a href="#!" class="modal-close waves-effect waves-green btn-flat">Aceptar</a>
@@ -263,7 +224,7 @@
                 <div id="modal_editar" class="modal">
                     <div class="modal-content">
                         <div class="card-panel teal #00b8d4"><h5>¿Desea editar el Registro?</h5></div>
-                        <hr />
+                        <div class="divider"></div>
                     </div>
                     <div class="modal-footer">
                         <a href="#!" class="modal-close waves-effect waves-green btn-flat">Aceptar</a>
@@ -272,61 +233,42 @@
                 </div>
                 <!--*********************final modal eliminar***********-->
                 <table class="centered">
+                    <div class="divider"></div>
                     <thead>
                     <tr>
                         <th>Nombre</th>
                         <th>Apellido paterno</th>
                         <th>Apellido materno</th>
                         <th>Puesto</th>
-                        <th>Turno</th>
-
+                        <th>Hora entrada</th>
+                        <th>Hora salida</th>
                         <th></th>
                         <th></th>
 
                     </tr>
                     </thead>
 
-                    <tbody>
-                    <tr>
-                        <td>Jonathan</td>
-                        <td>Valdez</td>
-                        <td>Marinez</td>
-                        <td>jardinero</td>
-                        <td>matutino</td>
-                        <td><a class="btn-flat modal-trigger icon-cross red-text" href="#modal_eliminar"></a></td>
-                        <td><a class="btn-flat modal-trigger  icon-pencil blue-text" href="#modal_editar"></a></td>
 
-                    </tr>
+                    <tbody>
+                    <?php
+                    while ($row=mysqli_fetch_array($datos))
+                    echo "
                     <tr>
-                        <td>Jose Jaciel</td>
-                        <td>Lopez</td>
-                        <td>Sanchez</td>
-                        <td>Recepcionista</td>
-                        <td>matutino</td>
-                        <td><a class="btn-flat modal-trigger icon-cross red-text" href="#modal_eliminar"></a></td>
-                        <td><a class="btn-flat modal-trigger  icon-pencil blue-text" href="#modal_editar"></a></td>
+                        <td>{$row[0]}</td>
+                        <td>{$row[1]}</td>
+                        <td>{$row[2]}</td>
+                        <td>{$row[3]}</td>
+                        <td>{$row[4]}</td>
+                        <td>{$row[5]}</td>
+                        <td><a class=\"btn-flat modal-trigger icon-cross red-text\" href=\"#modal_eliminar\"></a></td>
+                        <td><a class=\"btn-flat modal-trigger  icon-pencil blue-text\" href=\"#modal_editar\"></a></td>
+                    </tr>
+                    ";
+                    ?>
                     </tbody>
                 </table>
-                <!--********************************-->
-
+                <div class="divider"></div>
             </div>
         </div>
     </div>
-
 </div>
-
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
-<script type="text/javascript" src="js/plugins/jquery-1.11.2.min.js"></script>
-<script type="text/javascript" src="js/plugins/materialize.min.js"></script>
-<script type="text/javascript" src="js/plugins/prism.js"></script>
-<script type="text/javascript" src="js/plugins/perfect-scrollbar.min.js"></script>
-<script type="text/javascript" src="js/plugins/chartist.min.js"></script>
-<script type="text/javascript" src="js/plugins/chartist.min.js"></script>
-<script src="js/plugins/masonry.pkgd.min.js"></script>
-<script src="js/plugins/imagesloaded.pkgd.min.js"></script>
-<script type="text/javascript" src="js/plugins.min.js"></script>
-<script type="text/javascript" src="js/custom-script.js"></script>
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
-
-</body>
-</html>

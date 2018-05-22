@@ -13,15 +13,25 @@ class Servicios
 	{
 		$this->conexion= new conexion();
 	}
+
+	function get($atributo,$valor)
+    {
+        $this->$atributo=$valor;
+    }
+
+    function set($atributo)
+    {
+        return $this->$atributo;
+    }
 	function add()
 	{
 		$sql="insert into servicios values (100, 'SPA', sysdate, sysdate)";
 		$datos= $this->conexion ->querySimple($sql);
 	}
-	function get() 
+	function getAll()
 	{
-		$sql="select * from servicios";
-		$datos= $this->conexion ->queryResultados($sql);
+		$sql="select * from servicios order by id_servicio asc ";
+		$datos= $this->conexion ->QueryResultado($sql);
 		return $datos;
 	}
 	function update() 

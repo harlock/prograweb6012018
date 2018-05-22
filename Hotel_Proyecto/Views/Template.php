@@ -14,7 +14,6 @@ class Template
 {
     public static function header()
     {
-       /* echo "header y nav de mi proyecto";*/
        ?>
         <!DOCTYPE html>
         <!------------------------------------------------------------------------------->
@@ -26,15 +25,13 @@ class Template
             <link href="<?php echo URL?>/Public/css/style.min.css" type="text/css" rel="stylesheet">
             <link href="<?php echo URL?>/Public/css/custom.min.css" type="text/css" rel="stylesheet">
             <link rel="stylesheet" href="<?php echo URL?>/Public/style.css">
-            <link rel="stylesheet" href="<?php echo URL?>/Public/css/stilo.css">
             <script type="text/javascript" src="<?php echo URL?>/Public/js/plugins/jquery-1.11.2.min.js"></script>
             <script type="text/javascript" src="<?php echo URL?>/Public/js/plugins/materialize.min.js"></script>
+            <script type="text/javascript" src="<?php echo URL?>/Public/js/plugins/plugins.min.js"></script>
         <title>Inicio</title>
         </head>
         <!------------------------------------------------------------------------------->
 
-        <!------------------------------------------------------------------------------->
-        <body>
         <!------------------------------------------------------------>
             <header id="header" class="page-topbar">
 
@@ -47,8 +44,8 @@ class Template
                         </div>
                     </nav>
                 </div>
-                <!-- end header nav-->
             </header>
+        <body>
         <!------------------------------------------------------------>
         <div >
             <!--Inicio Menu Vertical-->
@@ -122,8 +119,7 @@ class Template
                                 <li class="no-padding"><a class="collapsible-header waves-effect waves-cyan"><i class="icon-user-check"></i>Empleados</a>
                                     <div class="collapsible-body">
                                         <ul>
-                                            <li><a href="<?php echo URL?>Empleados" class="icon-jira">   1</a></li>
-                                            <li><a href="<?php echo URL?>Empleados" class="icon-jira">   2</a></li>
+                                            <li><a href="<?php echo URL?>Empleados" class="icon-jira">   Configuración</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -135,8 +131,6 @@ class Template
             </div>
             <!--fin Menu Vertical-->
         </div>
-        <!--<div class="divider"></div>---------------------------------------------------------->
-
         <!------------------------------------------------------------>
         <main>
 
@@ -146,6 +140,7 @@ class Template
     {
         ?>
         </main>
+        </body>
         <footer class="page-footer">
             <div class="footer-copyright">
                 <div class="container">
@@ -156,8 +151,6 @@ class Template
         </footer>
         <!------------------------------------------------------------>
 
-        <!------------------------------------------------------------->
-        </body>
         <!------------------------------------------------------------------------------->
         </html>
         <?php
